@@ -1,0 +1,32 @@
+# Dependencies
+/node_modules
+
+# Build output
+/dist
+/build
+/out
+/coverage
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# TypeScript files
+# Generated files should generally be ignored, you can customize this based on your tsconfig.json 'outDir'
+*.js
+*.js.map
+
+# Logs and temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS and Editor files
+.DS_Store           # macOS
+Thumbs.db           # Windows
+.vscode/            # VS Code
+.idea/              # WebStorm/IntelliJ
+*.swp               # Vim
